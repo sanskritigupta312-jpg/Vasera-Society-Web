@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+/* ── Self-hosted TASA Orbiter Display ─────────────────── */
+@font-face {
+  font-family: 'TASA Orbiter Display';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/TASAOrbiterDisplay-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'TASA Orbiter Display';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/TASAOrbiterDisplay-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'TASA Orbiter Display';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/TASAOrbiterDisplay-SemiBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'TASA Orbiter Display';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/TASAOrbiterDisplay-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'TASA Orbiter Display';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/TASAOrbiterDisplay-Black.woff') format('woff');
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-white text-slate-900 dark:bg-black dark:text-white antialiased overflow-x-hidden;
+    font-family: 'TASA Orbiter Display', sans-serif;
+    font-weight: 400;
+  }
+
+  /* weight helpers */
+  .font-thin     { font-weight: 100; }
+  .font-light    { font-weight: 300; }
+  .font-normal   { font-weight: 400; }
+  .font-medium   { font-weight: 500; }
+  .font-semibold { font-weight: 600; }
+  .font-bold     { font-weight: 700; }
+  .font-black    { font-weight: 900; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 rounded-xl text-sm font-semibold bg-blue-600 hover:bg-blue-700 text-white cursor-pointer transition-colors duration-200 whitespace-nowrap;
+  }
+  .btn-secondary {
+    @apply px-6 py-3 rounded-xl text-sm font-semibold border border-blue-200 text-blue-700 hover:bg-blue-50 dark:border-blue-800 dark:text-blue-400 dark:hover:bg-blue-950 cursor-pointer transition-colors duration-200 whitespace-nowrap;
+  }
+  .card {
+    @apply rounded-2xl border border-slate-100 bg-white dark:border-slate-800 dark:bg-slate-950 p-6;
+  }
+  .badge {
+    @apply inline-block py-1 px-3 rounded-full text-xs font-semibold bg-blue-50 text-blue-600 dark:bg-blue-950 dark:text-blue-400;
+  }
+}
+
+@layer utilities {
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+  }
+  .animate-scroll:hover {
+    animation-play-state: paused;
+  }
+}
+
+@theme {
+  --font-display: 'TASA Orbiter Display', sans-serif;
+  --font-body: 'TASA Orbiter Display', sans-serif;
+
+  --animate-communify-pulse: communify-pulse 2s ease-in-out infinite;
+  @keyframes communify-pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.4; }
+  }
+
+  @keyframes scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+}

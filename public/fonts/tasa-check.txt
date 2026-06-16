@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'TASA Orbiter Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('TASA Orbiter Display'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterDisplay-Regular-BF64891cba1d563.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Display';
+    font-style: normal;
+    font-weight: 500;
+    src: local('TASA Orbiter Display'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterDisplay-Medium-BF64891cba56e9b.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Display';
+    font-style: normal;
+    font-weight: 600;
+    src: local('TASA Orbiter Display'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterDisplay-SemiBold-BF64891cba47942.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Display';
+    font-style: normal;
+    font-weight: 700;
+    src: local('TASA Orbiter Display'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterDisplay-Bold-BF64891cba5ae6f.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Display';
+    font-style: normal;
+    font-weight: 900;
+    src: local('TASA Orbiter Display'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterDisplay-Black-BF64891cba23c21.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Deck';
+    font-style: normal;
+    font-weight: 400;
+    src: local('TASA Orbiter Deck'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterDeck-Regular-BF64891cba23854.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Text';
+    font-style: normal;
+    font-weight: 400;
+    src: local('TASA Orbiter Text'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterText-Regular-BF64891cba384f3.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Deck';
+    font-style: normal;
+    font-weight: 500;
+    src: local('TASA Orbiter Deck'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterDeck-Medium-BF64891cba192ce.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Text';
+    font-style: normal;
+    font-weight: 500;
+    src: local('TASA Orbiter Text'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterText-Medium-BF64891cb9e8a75.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Deck';
+    font-style: normal;
+    font-weight: 600;
+    src: local('TASA Orbiter Deck'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterDeck-SemiBold-BF64891cba48835.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Text';
+    font-style: normal;
+    font-weight: 600;
+    src: local('TASA Orbiter Text'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterText-SemiBold-BF64891cba09cfc.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Deck';
+    font-style: normal;
+    font-weight: 700;
+    src: local('TASA Orbiter Deck'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterDeck-Bold-BF64891cba35ec7.woff') format('woff');
+}
+@font-face {
+    font-family: 'TASA Orbiter Text';
+    font-style: normal;
+    font-weight: 700;
+    src: local('TASA Orbiter Text'), url('https://fonts.cdnfonts.com/s/99623/TASAOrbiterText-Bold-BF64891cba00f5b.woff') format('woff');
+}
+
+
