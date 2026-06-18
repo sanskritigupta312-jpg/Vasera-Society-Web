@@ -38,7 +38,7 @@ const LandingPage = () => (
     <StatsSection />
     <HeroSection />
     <FeaturesSection />
-    <StackingSheetsSection />
+    <div className='lg:m-20 m-4'><StackingSheetsSection /></div>
     <RolesSection />
     <HowItWorksSection />
     <TestimonialsSection />
