@@ -3,7 +3,7 @@ import { Sheet } from '../../elements/SheetContainer';
 import FeatureCarousel from '../../elements/FeatureCarousel';
 
 const FeaturesSection = () => (
-  <Sheet id="features" className="bg-slate-50 dark:bg-slate-950 py-24 overflow-hidden">
+  <Sheet id="features" className="bg-slate-50 dark:bg-slate-950 py-15 overflow-hidden">
     <div className="max-w-6xl mx-auto px-6 w-full mb-14">
       {/* heading */}
       <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}

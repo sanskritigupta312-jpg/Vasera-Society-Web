@@ -41,7 +41,8 @@
 @layer base {
   html { scroll-behavior: smooth; }
   body {
-    @apply bg-white text-slate-900 dark:bg-black dark:text-white antialiased overflow-x-hidden;
+    @apply bg-white text-slate-900 dark:bg-black dark:text-white antialiased;
+    overflow-x: clip; /* clip ≠ hidden — does NOT create a scroll container, so position:sticky works */
     font-family: 'TASA Orbiter Display', sans-serif;
     font-weight: 400;
   }

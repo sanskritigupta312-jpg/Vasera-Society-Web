@@ -12,7 +12,7 @@ const Layout = () => {
   }, [pathname]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-white dark:bg-black overflow-x-hidden">
+    <div className="min-h-screen flex flex-col bg-white dark:bg-black overflow-x-clip">
       <LandingNavbar />
       {/* page content */}
       <main className="flex-1">
