@@ -263,7 +263,7 @@ function Sheet({ sheet, index, scrollProgress }) {
         position: 'relative',
         zIndex: 10 + index,
       }}
-      className={`w-full overflow-hidden m-10 border-t ${borderTop} ${stacking ? 'min-h-screen' : 'min-h-[auto]'}`}
+      className={`w-full overflow-hidden border-t ${borderTop} ${stacking ? 'min-h-screen' : 'min-h-[auto]'}`}
     >
       {/* Background */}
       <div className="absolute inset-0 -z-10">
